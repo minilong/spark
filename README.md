@@ -1,3 +1,7 @@
+# minilong rebuiding one of the sub-package command
+
+    mvn -pl :spark-core_2.10 -Pyarn -Phadoop-2.6 -Dhadoop.version=2.6.0-cdh5.5.4 -DskipTests clean package
+
 # Apache Spark
 
 Spark is a fast and general cluster computing system for Big Data. It provides
